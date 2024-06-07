@@ -1,2 +1,3 @@
 let string =  "Javascript is the main focus of Web Essentials";
-let newS = string.replace("Essentials,")
+let newS = string.replace("Essentials", "  Advanced" );
+console.log(newString);
