@@ -1,0 +1,8 @@
+function vindLandMetLangsteNaam(){
+    let longest = ""; 
+
+    
+
+
+
+}
