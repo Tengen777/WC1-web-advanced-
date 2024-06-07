@@ -2,9 +2,12 @@
 
 function capitalizeEersteLetter(woord){
     woord = woord.trim(); 
+    let woord = woord.split(" ");
     
-    let capitalizeEersteLetter = (woord.slice(0).toUppercase() + woord.slice(1));
-   
+    for (let part in woord){
+        
+     woord[part] = (woord[part].slice(0).toUppercase() + woord[part].slice(1));
+   }
    
     console.log(capitalizeEersteLetter);
 }
