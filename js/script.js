@@ -15,3 +15,11 @@ let leeftijd = prompt("wat is je leeftijd");
     } else {
         console.log("No entry");
     }
+
+// oef4
+let leeftijd = document.getElementById('leeftijd').value;
+  if(leeftijd < 18){
+    console.log('Je bent te jong');
+  }else{
+    console.log('Welkom');
+  }
