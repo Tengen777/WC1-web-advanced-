@@ -28,3 +28,4 @@ let leeftijd = document.getElementById('leeftijd').value;
 }
 
 form.addEventListener('submit', controleerLeeftijd);
+event.preventDefault();
