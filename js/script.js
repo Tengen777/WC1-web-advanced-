@@ -16,9 +16,10 @@ let leeftijd = prompt("wat is je leeftijd");
         console.log("No entry");
     }
 
+    
 // oef4
-function controleLeeftijd(){
-
+function controleLeeftijd(event){
+    event.preventDefault();
 let leeftijd = document.getElementById('leeftijd').value;
   if(leeftijd < 18){
     console.log('Je bent te jong');
@@ -28,4 +29,4 @@ let leeftijd = document.getElementById('leeftijd').value;
 }
 
 form.addEventListener('submit', controleerLeeftijd);
-event.preventDefault();
+   
